@@ -1,0 +1,25 @@
+.Index-banner{
+    width: 100vw;
+    height: 35vw;
+    background-image: url("../../static/banner.png");
+    background-size:100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Index-banner .name{
+    font-size: 32px;
+    color: white;
+}
+
+.Index-banner .info{
+    font-size: 16px;
+    color: white;
+}
+
+.container{
+    max-width:1000px;
+    margin: 50px auto;
+}
